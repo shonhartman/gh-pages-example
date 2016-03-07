@@ -40,6 +40,11 @@ body {
   color: grey;
 }
 
+.card--content {
+  font-size: .9rem;
+  line-height: 1.4;
+}
+
 /*State*/
 
 /*Utils */
