@@ -24,7 +24,7 @@ body {
 
 .card--top-text {
   float: left;
-  margin-left: 10px;
+  margin-left: 0 0 0 10px;
   width: 450px;
 
 }
@@ -32,7 +32,12 @@ body {
 .card--name {
   margin: 0;
   font-size: 1.2em;
-  color: lightblue;
+  color: blue;
+}
+
+.card--meta-data {
+  font-size: .8rem;
+  color: grey;
 }
 
 /*State*/
