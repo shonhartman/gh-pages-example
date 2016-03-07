@@ -4,8 +4,12 @@ body {
   font-family: Helvetica;
   background-color: lightgrey;
 }
+* {
+  vertical-align: top;
+}
 
 /*Layout*/
+
 
 /*Modules*/
 
@@ -16,36 +20,46 @@ body {
   border: 1px solid #efefef;
   border-radius: 2px;
 }
-
 .card--avatar {
   float: left;
   width: 40px;
 }
-
 .card--top-text {
   float: left;
   margin-left: 0 0 0 10px;
   width: 450px;
-
 }
-
 .card--name {
   margin: 0;
   font-size: 1.2em;
   color: blue;
 }
-
 .card--meta-data {
   font-size: .8rem;
   color: grey;
 }
-
 .card--content {
   font-size: .9rem;
   line-height: 1.4;
+  padding: 0 0 10px;
+  border-bottom: 1px solid lightgrey;
+}
+.card--footer {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.card--item {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: .8rem;
+  color: darkgrey;
+  font-weight: bold;
 }
 
 /*State*/
+
+  /*hover etc*/
 
 /*Utils */
 
