@@ -24,8 +24,15 @@ body {
 
 .card--top-text {
   float: left;
-  width: 460px;
+  margin-left: 10px;
+  width: 450px;
 
+}
+
+.card--name {
+  margin: 0;
+  font-size: 1.2em;
+  color: lightblue;
 }
 
 /*State*/
