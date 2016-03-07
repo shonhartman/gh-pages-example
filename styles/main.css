@@ -41,3 +41,10 @@ body {
 }
 
 /*State*/
+
+/*Utils */
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
