@@ -2,10 +2,30 @@
 
 body {
   font-family: Helvetica;
+  background-color: lightgrey;
 }
 
 /*Layout*/
 
 /*Modules*/
+
+.card {
+  width: 500px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #efefef;
+  border-radius: 2px;
+}
+
+.card--avatar {
+  float: left;
+  width: 40px;
+}
+
+.card--top-text {
+  float: left;
+  width: 460px;
+
+}
 
 /*State*/
